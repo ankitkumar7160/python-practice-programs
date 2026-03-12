@@ -14,6 +14,6 @@ while True:
     elif user > computer:
         print("Try Smallest number.")
     else:
-        print(f"Correct! You tool {attempts} attempts.")
         print("Congurts 🎉")
+        print(f"Correct! You tool {attempts} attempts.")
         break
