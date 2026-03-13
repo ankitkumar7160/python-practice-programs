@@ -14,5 +14,5 @@ def find_second_largest(array):
     return second_largest
 
 array = [23,54,23,5,6,4]
-print(f"Original Array {array}")
+print(f"Your original array {array}")
 print(f"Second largest number {find_second_largest(array)}")
