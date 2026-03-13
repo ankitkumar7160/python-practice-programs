@@ -51,6 +51,39 @@ These programs help in understanding **loops and iteration in Python**.
 20. Print the **Fibonacci series**.
 
 
+## 🧠 Level 3 – Logic Building (Completed ✅)
+
+These programs help in building **strong logical thinking** in Python.
+
+21. Factorial program
+22. Prime number check
+23. Palindrome number check
+24. Reverse a number
+25. Count digits in a number
+26. Sum of digits of a number
+27. Armstrong number check
+28. Find the largest digit in a number
+29. Find the smallest digit in a number
+30. Random number guessing game
+
+---
+
+## 📋 Level 4 – List / Array Practice (Completed ✅)
+
+These programs help in understanding **Python lists and basic data manipulation**.
+
+41. Find the largest number in a list
+42. Find the smallest number in a list
+43. Calculate the sum of list elements
+44. Calculate the average of list elements
+45. Reverse a list
+46. Find duplicate numbers in a list
+47. Print even numbers from a list
+48. Print odd numbers from a list
+49. Sort a list
+50. Find the second largest number in a list
+
+
 
 
 ## 🚀 Learning Journey
