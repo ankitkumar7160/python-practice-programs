@@ -1,7 +1,7 @@
 def word_count(sentence):
     clean_sentence = sentence.strip()
     
-    if clean_sentence == 0:
+    if not clean_sentence:
         return 0
     
     else:
