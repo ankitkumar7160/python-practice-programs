@@ -51,7 +51,7 @@ def missing_values(my_array):
     max_val = max(my_array)
     n_list = []
     
-    for i in range(min_val,max_val):
+    for i in range(min_val,max_val+1):
         if i not in my_array:
             n_list.append(i)
     return n_list
