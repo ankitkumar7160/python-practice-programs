@@ -99,9 +99,28 @@ These programs focus on **string manipulation and text processing in Python**.
 49. Remove spaces from a string
 50. Build a simple password strength checker
 
+
+## ⚙️ Level 6 – Functions Practice (Completed ✅)
+**Focus:** Reusable code, parameters, return values
+
+51. Function to find maximum of three numbers
+52. Function to calculate factorial
+53. Function to check prime number
+54. Function to generate Fibonacci series
+55. Function to find sum of digits
+56. Function to check palindrome number
+57. Function to return largest number in a list
+58. Function to count vowels in a string
+59. Function to calculate LCM
+60. Function to calculate GCD
+
 ---
 
-✅ **Status:** Completed
+✅ **Status:** In Progress / Completed
+
+
+---
+
 
 
 
