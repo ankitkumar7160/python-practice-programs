@@ -1,34 +1,35 @@
 def second_largest_number(my_array):
     # Step 1: Initialize both with the smallest possible value (Negative Infinity)
-    # Taaki ye negative numbers wale array ke saath bhi sahi kaam kare.
+    # This ensures the logic works correctly even with negative numbers in the array.
     largest = float("-inf")
     second_largest = float("-inf")
     
-    # Step 2: Array ke har number ko ek-ek karke check karo
+    # Step 2: Iterate through every number in the array
     for num in my_array:
-        # Case A: Agar naya number 'largest' se bhi bada nikalta hai
+        # Case A: If the current number is greater than the current 'largest'
         if num > largest:
-            # Puraana 'largest' ab promotion kho kar 'second_largest' ban jayega
+            # The previous 'largest' now becomes the 'second_largest'
             second_largest = largest
-            # Naya number 'largest' ki kursi par baith jayega
+            # The current number takes the position of the new 'largest'
             largest = num
             
-        # Case B: Agar naya number 'largest' se bada nahi hai, par 'second_largest' se bada hai
-        # (Saath hi ye check karna zaroori hai ki naya number 'largest' ke barabar na ho)
+        # Case B: If the current number is smaller than 'largest' but greater than 'second_largest'
+        # We also ensure the current number is not equal to 'largest' to handle duplicates.
         elif num > second_largest and num != largest:
-            # Sirf 'second_largest' ko update karo
+            # Only update the 'second_largest' variable
             second_largest = num
     
     return second_largest
 
 # --- Execution ---
-my_array = input("Enter values of array (space separated): ")
-new_array = [int(x) for x in my_array.split()]
+user_input = input("Enter values of array (space separated): ")
+# Converting the input string into a list of integers
+new_array = [int(x) for x in user_input.split()]
 
 result = second_largest_number(new_array)
 
-# Agar array mein second largest mila hi nahi (e.g. [10, 10, 10])
+# Logic to handle cases where a second largest doesn't exist (e.g., [10, 10, 10] or single element)
 if result == float("-inf"):
     print("There is no second largest number.")
 else:
-    print(f"Second largest of this array: {result}")
+    print(f"The second largest number in the array is: {result}")
