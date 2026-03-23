@@ -114,6 +114,21 @@ These programs focus on **string manipulation and text processing in Python**.
 59. Function to calculate LCM
 60. Function to calculate GCD
 
+
+
+## ⚙️ Level 7 – Advance Logic Problem (Completed ✅)
+
+61. Two Sum Problem
+62. Find Second Largest Number in Array
+63. Find Missing Values in Array
+64. Find Anagram String 
+65. Find Duplicate Number in Array
+66. Count Frequency fo Element
+67. 
+68. 
+69. 
+70. 
+
 ---
 
 ✅ **Status:** In Progress / Completed
