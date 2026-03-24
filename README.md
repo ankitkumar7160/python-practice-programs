@@ -124,7 +124,7 @@ These programs focus on **string manipulation and text processing in Python**.
 64. Find Anagram String 
 65. Find Duplicate Number in Array
 66. Count Frequency fo Element
-67. 
+67. Rotate List by K Number
 68. 
 69. 
 70. 
