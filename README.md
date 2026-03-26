@@ -125,9 +125,9 @@ These programs focus on **string manipulation and text processing in Python**.
 65. Find Duplicate Number in Array
 66. Count Frequency fo Element
 67. Rotate List by K Number
-68. 
-69. 
-70. 
+68. Merge Two Sorted List
+69. Remove Duplicate Number Form List
+70. Find Longest Word in Sentence
 
 ---
 
