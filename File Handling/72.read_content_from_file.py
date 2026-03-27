@@ -2,10 +2,11 @@
 def read_file():
 
     # Open the file in read mode ("r")
-    file = open("File Handling/Note.txt", "r")
+    # file = open("File Handling/Note.txt", "r")
+    with open("File Handling/Note.txt" , "r") as file:
 
     # Read the entire content of the file and store it in 'content'
-    content = file.read()
+        content = file.read()
 
     # Close the file after reading to free system resources
     file.close()
