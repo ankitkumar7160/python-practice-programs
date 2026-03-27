@@ -5,12 +5,11 @@
 
 print("Write your note in NOtes file.")
 def create_file(new_file):
-    file = open("Note.txt" , "w")
-    file.write(new_file)
+    file = open("File Handling/Note.txt" , "a")
+    file.write("\n"+new_file)
     file.close()
     
-    return file
+    return "Sessuccesfully Write in the file."
 
 new_file = input("enter data: ")
 print(create_file(new_file))
-print("Sessuccesfully Write in the file.")
