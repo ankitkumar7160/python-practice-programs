@@ -101,7 +101,7 @@ These programs focus on **string manipulation and text processing in Python**.
 
 
 ## ⚙️ Level 6 – Functions Practice (Completed ✅)
-**Focus:** Reusable code, parameters, return values
+**Focus** Reusable code, parameters, return values
 
 51. Function to find maximum of three numbers
 52. Function to calculate factorial
