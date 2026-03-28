@@ -2,7 +2,7 @@
 # file.write(input("Enter Notes: "))
 # file.close
 
-
+#Create File Method function
 print("Write your note in NOtes file.")
 def create_file(new_file):
     file = open("File Handling/Note.txt" , "a")
