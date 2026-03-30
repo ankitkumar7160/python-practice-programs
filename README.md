@@ -133,7 +133,7 @@ These programs focus on **string manipulation and text processing in Python**.
 ## ⚙️ Level 8 – File Handling ( In progress )
 
 71. Create File and Write Content.
-72. 
+72. Read Content from File.
 73. 
 74.  
 75. 
