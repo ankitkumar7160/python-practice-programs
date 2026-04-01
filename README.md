@@ -135,7 +135,7 @@ These programs focus on **string manipulation and text processing in Python**.
 71. Create File and Write Content.
 72. Read Content from File.
 73. Count Words in File.
-74.  
+74. Count Lines from File.
 75. 
 76. 
 77. 
