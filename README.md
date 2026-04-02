@@ -117,16 +117,16 @@ These programs focus on **string manipulation and text processing in Python**.
 
 ## ⚙️ Level 7 – Advance Logic Problem (Completed ✅)
 
-61. Two Sum Problem
-62. Find Second Largest Number in Array
-63. Find Missing Values in Array
-64. Find Anagram String 
-65. Find Duplicate Number in Array
-66. Count Frequency fo Element
-67. Rotate List by K Number
-68. Merge Two Sorted List
-69. Remove Duplicate Number Form List
-70. Find Longest Word in Sentence
+61. Two Sum Problem.
+62. Find Second Largest Number in Array.
+63. Find Missing Values in Array.
+64. Find Anagram String .
+65. Find Duplicate Number in Array.
+66. Count Frequency fo Element.
+67. Rotate List by K Number.
+68. Merge Two Sorted List.
+69. Remove Duplicate Number Form List.
+70. Find Longest Word in Sentence.
 
 
 
