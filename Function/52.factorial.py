@@ -1,3 +1,4 @@
+# Function of finding the factorial of given number.
 def factorail(number):
    
     if number == 0 or number == 1:
