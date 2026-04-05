@@ -6,4 +6,8 @@ def factorail(number):
     else:
         return number * factorail(number - 1)
     
-print(factorail(5))
+# print(factorail(5))
+
+number = int(input("Enter the number: "))
+result = factorail(number)
+print(f"{result} is factorial of {number}")
