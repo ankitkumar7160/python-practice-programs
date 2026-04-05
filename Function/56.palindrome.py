@@ -1,3 +1,4 @@
+# Check the palindrome number
 def palindrome(number):
     # Original number ko 'temp' mein save kiya taaki comparison ke liye 'number' safe rahe
     temp = number 
