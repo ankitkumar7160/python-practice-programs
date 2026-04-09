@@ -1,29 +1,3 @@
-# def lcm(Number):
-    
-#     max_number = max(Number)
-    
-#     condition = max_number
-    
-#     while True:
-#         is_lcm = True
-#         for num in Number:
-#             if condition % num !=0:
-#                 is_lcm=False
-#                 break
-#         if is_lcm == True:
-#             return condition
-        
-#         condition = condition + max_number
-        
-# number = input("Enter the array: ")
-# n_number = [int(x) for x in number.split()]
-# result = lcm(n_number)
-
-# print(f"LCM {result}")
-
-
-
-
 
 # Function 1: GCD (HCF) nikalne ke liye Euclidean Algorithm ka use
 def get_gcd(a, b):
