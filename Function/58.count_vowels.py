@@ -1,3 +1,4 @@
+# Funtion of count the vowels in String.
 def count_vowels(string):
     
     vowels = "aeiouAEIOU"
