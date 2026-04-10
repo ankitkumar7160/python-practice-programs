@@ -136,12 +136,12 @@ These programs focus on **string manipulation and text processing in Python**.
 72. Read Content from File.
 73. Count Words in File.
 74. Count Lines from File.
-75. 
-76. 
-77. 
-78. 
-79. 
-80. 
+75. Count Characters in File.
+76. Copy Content form one file to Another File.
+77. Append text to File.
+78. Find most frequent word in File.
+79. Replace word in File.
+80. Create simple Log System.
 
 
 ---
