@@ -1,7 +1,7 @@
 This is the first program for file handling.
 New line
 Add New line
-Python command
-Welcome in Python World.
+Java command
+Welcome in Java World.
 Array : 3 4 5 8 2 4 56 7 5
 This is the funtion of appending text in file.
