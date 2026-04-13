@@ -6,7 +6,7 @@ class Student:
         self.marks = int(marks)
         
     def introduce(self):
-        return f"Name of student {self.name}\nRoll no:- {self.roll_no}\nSubject : {self.subject}\nMarKs : {self.marks}"
+        return f"Name of student:  {self.name}\nRoll no:- {self.roll_no}\nSubject : {self.subject}\nMarKs : {self.marks}"
     
     
     
