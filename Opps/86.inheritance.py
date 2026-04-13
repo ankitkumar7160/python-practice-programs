@@ -60,16 +60,43 @@ class Employee():
     Employee Department : {self.department}
     Employee Salary : {self.__salary:.2f}
     Current Attendance : {self.attendance}
-    
     """
     
     
     
+class Developer(Employee):
+    
+    def __init__(self,id,name,salary,leave,attendance,tech_stack):
+        super().__init__(id,name,"AIML",salary,leave,attendance)
+        self.tech_stack = tech_stack
+        
+    # def get_dev_details(self):
+    #     return f"Developer Experties : {self.tech_stack}"
+
+    def emp_details(self):
+        basic = super().emp_details()
+        return basic + f"Developer Experties : {self.tech_stack}"
+    
+    
 emp1 = Employee(101,"Ankit",'AIML',25000,25,14)
+emp2 = Developer(102,"Ankit",48000,0,20,"Python,C,C++,HTML,ChatCPT")
+
+# print(f'''
+#       {emp1.emp_details()}
+#       {emp1.mark_attendance()}
+#       {emp1.emp_leave()}
+#       {emp1.promotion()}
+#       {emp1.emp_details()}
+#       ''')
+
+
+
 print(f'''
-      {emp1.emp_details()}
-      {emp1.mark_attendance()}
-      {emp1.emp_leave()}
-      {emp1.promotion()}
-      {emp1.emp_details()}
+      {emp2.emp_details()}
+      {emp2.mark_attendance()}
+      {emp2.emp_leave()}
+      {emp2.promotion()}
+      {emp2.emp_details()}
       ''')
+
+# print(emp2.emp_details())

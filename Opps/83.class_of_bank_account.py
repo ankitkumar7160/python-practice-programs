@@ -70,17 +70,17 @@ user2 = Bank_Acount(102, "Ankit", 2304325, "Saving", 1200)
 user3 = Bank_Acount(103, "Rahul", 2304326, "Saving", 1000)
 user4 = Bank_Acount(104, "Sohan", 2304327, "Current", 500)
 
-# print(user1.transfer(user2,400))
+print(user1.transfer(user2,400))
 
-transfer = [
-    (user2,500),
-    (user3,200),
-    (user4,350)
-]
+# transfer = [
+#     (user2,500),
+#     (user3,200),
+#     (user4,350)
+# ]
 
-for receiver,amount in transfer:
-    result = user1.transfer(receiver,amount)
-    if result:
-        print(result)
-        print("-"*50)
+# for receiver,amount in transfer:
+#     result = user1.transfer(receiver,amount)
+#     if result:
+#         print(result)
+#         print("-"*50)
 
