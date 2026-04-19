@@ -1,4 +1,4 @@
-num = int(input("Enter the number: "))
+num = input("Enter the number: ")
 
 s_num = str(num)
 
